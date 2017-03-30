@@ -1,0 +1,20 @@
+.box{
+    width: 1350px;
+    height: 100px;
+    background: #1f3361;
+}
+.text{
+    position: absolute;
+    font-weight: 800;
+    font-size: 50px;
+    font-family:黑体;
+    left: 550px;
+    top: 25px;
+    color: #fff;
+}
+.text1{
+    font-weight: 400;
+    font-size: 30px;
+    font-family:黑体;
+    margin: 28px;
+}
