@@ -1,27 +1,40 @@
 #box{
     width:360px;
-    height: 648px;
+    height: 642px;
     background: #fff;
-    border: 1px solid #747474;
+    border-left: 1px solid #b8b8b8;
+    border-right:1px solid #b8b8b8;
+    border-top: 1px solid #b8b8b8;
 }
 .box1{
     width: 360px;
     height:40px;
-    border: 1px solid #747474;
+    /*border: 1px solid #b8b8b8;*/
 }
 .box11{
-    width: 68px;
-    height: 35px;
-    margin: 2px;
-    border:1px solid #747474;
+    width: 72px;
+    height: 40px;
+    padding:10px;
+    border:1px solid #b8b8b8;
+    background: #b8b8b8;
     float: left;
     box-sizing: border-box;
     text-align: center;
 }
+.box12{
+    width: 72px;
+    height: 41px;
+    padding: 10px;
+    background: #fff;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 800;
+}
 .box2{
     width: 360px;
     height:100px;
-    border: 1px solid #747474;
+    /*border: 1px solid #b8b8b8;*/
     float: left;
 }
 .text2{
@@ -36,7 +49,9 @@
 .box3{
     width: 360px;
     height: 160px;
-    border: 1px solid #747474;
+    /*border: 1px solid #b8b8b8;*/
+    border-top:1px solid #b8b8b8 ;
+    /*border-bottom: 1px solid #b8b8b8;*/
     float: left;
 }
 .big{
@@ -63,11 +78,17 @@
     margin: 8px;
     float: left;
     text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-family: 黑体;
+    font-size: 14px;
+    line-height: 30px;
 }
 .box4{
     width: 360px;
     height: 65px;
-    border: 1px solid #747474;
+    /*border: 1px solid #b8b8b8;*/
+    border-top:1px solid #b8b8b8 ;
     float: left;
 }
 .text4{
@@ -81,13 +102,15 @@
 #box5{
     width:360px;
     height: 275px;
-    border: 1px solid #747474;
+    /*border: 1px solid #b8b8b8;*/
+    border-top:1px solid #b8b8b8 ;
     float: left;
 }
 .large{
-    width: 140px;
-    height: 182px;
-    border: 1px solid #747474;
+    width: 143px;
+    height: 181px;
+    /*border: 1px solid #b8b8b8;*/
+    border-bottom:1px solid #b8b8b8 ;
     margin-left: 1px;
     float: left;
 }
@@ -99,18 +122,23 @@
     margin-top: 30px;
 }
 .small{
-    width: 70px;
+    width: 71px;
     height: 90px;
-    border: 1px solid #747474;
+    border-bottom: 1px solid #b8b8b8;
+    border-left: 1px solid #b8b8b8;
     float: left;
 }
 .img2{
     width: 48px;
     height: 48px;
     background: #ff5427;
-    margin-left: 10px;
+    margin-left: 12px;
     margin-top: 10px;
 }
 .text0{
     text-align: center;
+    font-size: 13px;
+    font-family: 黑体;
+    font-weight: 400;
+    line-height: 30px;
 }
