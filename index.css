@@ -1,9 +1,25 @@
-.box{
+.ui-title{
     width: 1350px;
     height: 100px;
-    background: #1f3361;
+    background: #669999;
 }
-.text{
+.ui-block{
+    width: 445px;
+    height: 395px;
+/*    border: 1px solid #000000;*/
+    margin-left: 430px;
+    margin-top: 50px;
+}
+.ui-block-box{
+    float: left;
+    width:200px;
+    height:40px;
+    background:#a9a9a9;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.ui-title-text{
     position: absolute;
     font-weight: 800;
     font-size: 50px;
@@ -12,12 +28,10 @@
     top: 25px;
     color: #fff;
 }
-.text1{
+.ui-block-box-text{
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     font-family:黑体;
-    margin: 28px;
-}
-function open_newpage(){
-    window.open("file:///D:/Web/learnGit/ex03.html");
+    text-align: center;
+    line-height: 40px;
 }
