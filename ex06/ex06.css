@@ -1,0 +1,132 @@
+/*EX01*/
+.ui-element {
+    width: 600px;
+    height: 300px;
+    border:1px solid #000;
+    background: #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    align-content: flex-start;
+}
+.ui-element-item {
+    margin: 10px;
+}
+.ui-element-img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.ui-img {
+    display: none;
+}
+.ui-img-show {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 300px;
+    transform: translate(-150%, -90%);
+}
+
+/*EX02*/
+.ui-block{
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-top: 30px;
+    z-index: 3;
+    top: 444px;
+}
+.ui-block-rectangle{
+    width:80px;
+    height:25px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: 1s;
+}
+.back{
+    background: #8b8b8b;
+}
+.ui-box{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+    margin-left: 50px;
+    z-index: 3;
+    top:500px;
+}
+.add{
+    display: none;
+}
+#ftext{
+    display: none;
+}
+#stext{
+    display: none;
+}
+
+/*EX03*/
+.ui-cell{
+    list-style: none;
+    position: absolute;
+    width: 500px;
+    height:500px;
+    border: 1px solid #000;
+    margin: 50px;
+    z-index: 3;
+    top:850px;
+}
+.ui-cell-button{
+    position: absolute;
+    width:130px;
+    height: 26px;
+    border: 1px solid #000;
+    background: #47b97f;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    top:450px;
+    left:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ui-main{
+    width:450px;
+    height: 30px;
+    border:1px solid #000;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.ui-cell-num{
+    width:40px;
+    height:30px;
+    border-right:1px solid #000;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+}
+.ui-cell-mid{
+    width:470px;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.ui-cell-del{
+    width:90px;
+    height:30px;
+    border-left:1px solid #000;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    float: right;
+}
