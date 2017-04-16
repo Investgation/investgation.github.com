@@ -44,6 +44,9 @@ $(document).ready(function () {
     //在不同的页面添加对应的数字
 
     //3.数据管理操作
+    //a. 点击每行后方的按钮，删除该行元素；
+    //b. 点击添加按钮，增加一行数据；
+    //c. 对于新增的一行，同样可以删除；
     var number = 3;
     $(".ui-cell-del").click(function () {
         var count = $(".ui-cell-num").length;
