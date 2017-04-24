@@ -1,0 +1,384 @@
+.ui-box{
+    width:690px;
+    height:315px;
+    margin:90px;
+}
+.ui-box-title{
+    width:690px;
+    height:25px;
+    box-sizing: border-box;
+    display: flex;
+}
+.ui-box-title-content{
+    width:80px;
+    height:25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: linear-gradient(#2e94ee, #1b88c4);
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.ui-box-line{
+    width:690px;
+    height:5px;
+    background: #1b88c4;
+}
+.ui-box-message{
+    width:688px;
+    height:50px;
+    border-left: 1px solid #c1c1c7;
+    border-right: 1px solid #c1c1c7;
+    background: linear-gradient(#fbfcee, #f5f6f6);
+}
+.ui-box-text{
+    font-size: 14px;
+    font-family: 宋体;
+    text-align: center;
+    line-height: 15px;
+}
+.backred{
+    color: #cc0033;
+}
+.backblue{
+    color: #003333;
+}
+.fontweight{
+    font-weight: 800;
+}
+.ui-box-operation{
+    width:688px;
+    height:25px;
+    border:1px solid #c1c1c7;
+    background: #ffffcc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.ui-box-stext{
+    font-size: 12px;
+    font-family: 宋体;
+    text-align: center;
+    line-height: 18px;
+}
+.backdarkblue{
+    color: #003399;
+}
+.backgreen{
+    color: #666699;
+}
+.ui-box-attribute{
+    width:690px;
+    height:18px;
+    margin-top: 5px;
+    border:1px solid #fff;
+    background: #89faff;
+    box-sizing: border-box;
+    display: flex;
+}
+.ui-box-attribute-route{
+    width:405px;
+    height: 16px;
+    border-right: 1px solid #fff;
+    background: #ccccff;
+}
+.ui-box-attribute-position{
+    width:66px;
+    height: 16px;
+    border-right: 1px solid #fff;
+    background: #ccccff;
+}
+.ui-box-attribute-fee{
+    width:66px;
+    height: 16px;
+    border-right: 1px solid #fff;
+    background: #ccccff;
+}
+.ui-box-attribute-seat{
+    width:81px;
+    height: 16px;
+    border-right: 1px solid #fff;
+    background: #ccccff;
+}
+.ui-box-attribute-distance{
+    width:66px;
+    height: 16px;
+    border-right: 1px solid #fff;
+    background: #ccccff;
+}
+.ui-box-way{
+    width:690px;
+    height:40px;
+    border-left:1px solid #c1c1c7;
+    border-right:1px solid #c1c1c7;
+    border-bottom:1px solid #c1c1c7;
+    box-sizing: border-box;
+    display: flex;
+}
+.ui-box-way-first{
+    width: 60px;
+    height:40px;
+}
+.ui-box-way-second{
+    width: 60px;
+    height:40px;
+    display: flex;
+}
+.ui-box-way-third{
+    width: 285px;
+    height:40px;
+}
+.ui-box-way-forth{
+    width: 67px;
+    height:40px;
+}
+.ui-box-way-fifth{
+    width: 218px;
+    height:40px;
+    display: flex;
+}
+.ui-box-way-btext{
+    font-size: 17px;
+    font-family: 新宋体;
+    font-weight: bold;
+    line-height: 40px;
+}
+.ui-box-way-stext{
+    font-size: 13px;
+    font-family: 宋体;
+    line-height: 40px;
+    text-align: center;
+}
+.ui-box-way-text{
+    font-size: 13px;
+    font-family: 宋体;
+    text-align: center;
+    line-height: 20px;
+}
+.ui-box-way-item{
+    width: 690px;
+    height:40px;
+    border-bottom: 1px solid #c1c1c7;
+    display: flex;
+}
+.ui-box-way-time{
+    width:100px;
+    height: 40px;
+}
+.ui-box-way-pic{
+    width:10px;
+    height: 40px;
+}
+.ui-box-way-route{
+    width:295px;
+    height: 40px;
+    border-right: 1px solid #c1c1c7;
+    display: flex;
+}
+.ui-box-way-position{
+    width:66px;
+    height: 40px;
+    border-right: 1px solid #c1c1c7;
+}
+.ui-box-way-fee{
+    width:66px;
+    height: 40px;
+}
+.ui-box-way-seat{
+    width:81px;
+    height: 40px;
+    border-right: 1px solid #c1c1c7;
+    border-left: 1px solid #c1c1c7;
+}
+.ui-box-way-distance{
+    width:66px;
+    height: 40px;
+}
+.backlightblue{
+    color: #6699cc;
+}
+.backlightgreen{
+    color: #01865e;
+}
+.backaliceblue{
+    color: #018ae7;
+}
+.ui-box-way-texts{
+    font-family: 黑体;
+    font-size: 16px;
+    font-weight: 900;
+}
+.rectangle{
+    position: absolute;
+    width:7px;
+    height:40px;
+    background: #96c7d8;
+}
+.whiterectangle-first{
+    width:2px;
+    height:8px;
+    background: #fff;
+    margin-left: 2px;
+    margin-top: 7px;
+}
+.whiterectangle-second{
+    width:2px;
+    height:8px;
+    background: #fff;
+    margin-left:2px;
+    margin-top: 7px;
+}
+.whiterectangle-third{
+    width:2px;
+    height:8px;
+    background: #fff;
+    margin-left:2px;
+    margin-top: 7px;
+}
+.whiterectangle-forth{
+    width:2px;
+    height:8px;
+    background: #fff;
+    margin-left: 2px;
+    margin-top: 8px;
+}
+.whiterectangle-fifth{
+    width:2px;
+    height:8px;
+    background: #fff;
+    margin-left:2px;
+    margin-top: 8px;
+}
+.bluecloud{
+    font-size: 16px;
+    color: #7bc7ee;
+}
+.whitecloud{
+    font-size: 12px;
+    color: #fff;
+}
+.whitesquare{
+    width:7px;
+    height:8px;
+    background: #fff;
+}
+.bluesquare{
+    width:13px;
+    height:12px;
+    background: linear-gradient(#7abfe3, #1f94d0);
+}
+.squareup{
+    width:16px;
+    height:8px;
+    background: linear-gradient(#4dc8f7, #1582c7);
+}
+.squaredown{
+    width:16px;
+    height:8px;
+    background: linear-gradient(#1582c7, #27adee);
+}
+.orangesquare{
+    width:20px;
+    height:20px;
+    background: linear-gradient(#fc7a17, #ff4102);
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.fposition{
+    list-style: none;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+.sposition{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px
+}
+.tposition{
+    list-style: none;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+.fiposition{
+    margin-left: 10px;
+}
+.siposition{
+    margin-left: 15px
+}
+.seposition{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.eposition{
+    margin-top: 13px;
+    margin-left: -8px
+}
+.nposition{
+    margin-top: 8px
+}
+.teposition{
+    list-style: none;
+    margin-top: 10px
+}
+.elposition{
+    margin-left: -5px;
+}
+.twposition{
+    margin-left: 65px;
+    margin-top: 10px
+}
+.thposition{
+    list-style: none;
+    margin-left: -15px
+}
+.foposition{
+    margin-left: 13px;
+    margin-top: 13px
+}
+.fifposition{
+    margin-left: 12px;
+    line-height: 40px
+}
+.sixposition{
+    list-style: none;
+}
+.sevposition{
+    margin-top:15px;
+}
+.eiposition{
+    margin-top: 10px;
+}
+.niposition{
+    margin-top: 16px;
+    margin-left: 26px;
+}
+.tweposition{
+    margin-top: 2px;
+    margin-left: 3px;
+}
+.tfposition{
+    margin-left: -10px;
+}
+.tsposition{
+    margin-left: 13px;
+    margin-top: 12px;
+}
+.ttposition{
+    margin-left: 10px;
+    line-height: 40px;
+}
+.tfoposition{
+    margin-left: 28px;
+    margin-top: 14px;
+}
+.tfiposition{
+    margin-left: 106px;
+    margin-top: 10px
+}
+tsposition{
+    margin-left: 10px;
+}
