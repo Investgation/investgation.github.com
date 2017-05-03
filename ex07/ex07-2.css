@@ -355,15 +355,36 @@
 .backwhite{
     color: #fff;
 }
-.triangle{
+.triangle-large{
+    position:absolute;
     width:0;
     height:0;
-    border-left:50px solid transparent;
-    border-right:50px solid transparent;
-    border-bottom:50px solid #008def;
+    border-left:75px solid transparent;
+    border-right:75px solid transparent;
+    border-bottom:75px solid #008def;
+    margin-left: 70%;
+    margin-top: -3%;
+}
+.triangle-small{
+    position:absolute;
+    width:0;
+    height:0;
+    border-left:45px solid transparent;
+    border-right:45px solid transparent;
+    border-bottom:45px solid #f4f4f4;
+    margin-left: 81%;
+    margin-top: -2%;
 }
 .transform{
     transform: rotate(45deg);
+}
+.ui-bottom-right-text{
+    position: absolute;
+    font-size: 17px;
+    transform: rotate(45deg);
+    margin-top: 6%;
+    margin-left: 75%;
+    color: #fff;
 }
 .fa-play-circle-o{
     font-size: 20px;
