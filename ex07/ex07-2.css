@@ -96,9 +96,16 @@
 }
 .ui-block-right-up-text{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+    word-break:break-all;
+    overflow: hidden;
+    font-size: 15px;
     font-size: 20px;
     margin-top: 6%;
+    margin-left: 15%;
 }
 .ui-block-right-down{
     height: 80px;
@@ -158,11 +165,25 @@
     margin-top: 5%;
     padding:0px;
     font-size: 19px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+    word-break:break-all;
+    overflow: hidden;
 }
 .ui-bottom-left-left-mid{
     color: #969696;
     font-size: 17px;
     margin-top: 3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+    word-break:break-all;
+    overflow: hidden;
 }
 .ui-bottom-left-left-middle{
     padding:0px;
@@ -188,6 +209,13 @@
 .ui-bottom-left-right-text{
     padding:0px;
     font-size: 17px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+    word-break:break-all;
+    overflow: hidden;
 }
 .ui-bottom-left-right-buttom{
     padding:0px;
@@ -205,6 +233,13 @@
 .ui-bottom-left-second-text{
     padding:0px;
     font-size: 19px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+    word-break:break-all;
+    overflow: hidden;
 }
 .ui-bottom-left-second-ppt{
     width:30px;
@@ -259,6 +294,13 @@
 .ui-bottom-left-fifth-word{
     font-size: 18px;
     color: #969696;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+    word-break:break-all;
+    overflow: hidden;
 }
 .ui-bottom-left-fifth-item{
     display: flex;
@@ -298,10 +340,24 @@
 .ui-bottom-right-item-text{
     font-size: 20px;
     font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+    word-break:break-all;
+    overflow: hidden;
 }
 .ui-bottom-right-item-word{
     font-size: 15px;
     color: #969696;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+    word-break:break-all;
+    overflow: hidden;
 }
 .fontsize{
     font-size: 18px;
