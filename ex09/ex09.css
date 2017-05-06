@@ -1,0 +1,30 @@
+html{
+    height:100%;
+}
+body{
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+#container{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+#results{
+    position: absolute;
+    width:20%;
+    height:90%;
+    right: 0px;
+    top: 0px;
+    padding:0px;
+}
+#way{
+    position: absolute;
+    width:20%;
+    height:100%;
+    top: 0px;
+    left: 4%;
+    padding:0px;
+}
+
